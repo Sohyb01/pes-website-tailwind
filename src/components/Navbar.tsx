@@ -1,11 +1,11 @@
 const Navbar = () => {
     return (
         <>
-            <nav className="navbar-desktop bg-pes_logoblue">
-                <div className="container mx-auto flex max-w-xs justify-between py-2 sm:max-w-[440px] sm:py-2 md:max-w-[688px] md:py-4 lg:max-w-[1000px] 2xl:max-w-[1480px]">
+            <nav className="navbar-desktop bg-pes_logoblue px-[10px] py-2 sm:px-[20px] sm:py-2 md:py-4 xl:px-[220px]">
+                <div className="mx-auto flex justify-between sm:container">
                     <div className="nav-logo h-[48px] w-[114px] bg-cover md:h-[74px] md:w-[174px]"></div>
-                    <div className="container flex w-fit items-center gap-8">
-                        <div className="nav-links container hidden items-center gap-8 md:flex">
+                    <div className="container flex w-fit items-center gap-4 lg:gap-8">
+                        <div className="nav-links container hidden items-center gap-8 lg:flex lg:gap-8">
                             <a
                                 href=""
                                 className="text-md text-pes_white duration-200 hover:text-pes_orange"
@@ -41,6 +41,33 @@ const Navbar = () => {
                         </div>
                         <button className="text-md h-fit rounded-full bg-pes_orange px-8 py-2 text-pes_white duration-200 hover:bg-orange-300 md:py-4">
                             Login
+                        </button>
+                        <button className="lg:hidden">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="19"
+                                height="12"
+                                viewBox="0 0 19 12"
+                            >
+                                <path
+                                    d="M1.5 1H17.5"
+                                    stroke="white"
+                                    stroke-width="1.5"
+                                    stroke-linecap="round"
+                                />
+                                <path
+                                    d="M1.5 6H17.5"
+                                    stroke="white"
+                                    stroke-width="1.5"
+                                    stroke-linecap="round"
+                                />
+                                <path
+                                    d="M1.5 11H17.5"
+                                    stroke="white"
+                                    stroke-width="1.5"
+                                    stroke-linecap="round"
+                                />
+                            </svg>
                         </button>
                     </div>
                 </div>
