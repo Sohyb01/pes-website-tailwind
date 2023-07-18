@@ -99,14 +99,14 @@ const Home = () => {
 
             <section className="sm:py[16px] md:py[40px] md:px[30px] mx-auto px-[10px] py-[16px] sm:container lg:max-w-[1080px] lg:px-[40px] lg:py-[80px]">
                 <div className="flex flex-col items-center">
-                    <h1 className="mb-4 max-w-[830px] text-center text-xl font-bold text-pes_darkblue lg:text-xl">
+                    <h1 className="mb-4 max-w-[30ch] max-w-[830px] text-left text-xl font-bold text-pes_darkblue md:text-center lg:text-xl">
                         Unleash your child’s inner genius with our{' '}
                         <span className="text-pes_orange">
                             fun-filled programming courses
                         </span>
                     </h1>
                     <div className="paragraphs flex max-w-[830px] flex-col items-start gap-8 lg:flex-row lg:gap-4">
-                        <div className="flex flex-col  gap-4 text-center md:gap-8 lg:text-lg">
+                        <div className="flex flex-col  gap-4 text-left lg:gap-8 lg:text-center lg:text-lg">
                             <p>
                                 We believe that coding is an essential skill for
                                 the future, and we are committed to making it
@@ -118,6 +118,28 @@ const Home = () => {
                                 by experienced instructors who are passionate
                                 about coding and teaching.
                             </p>
+                        </div>
+                    </div>
+                    <div className="frames flex w-full flex-col gap-4 pt-4 lg:flex-row">
+                        <div className="frame learn-at-frame group mx-auto grid aspect-[320/218] w-full place-items-center rounded-[48px] border-r-8 bg-cover after:rounded-[48px] md:w-[491px]">
+                            <div className="z-10 flex flex-col gap-4">
+                                <h1 className=" text-center text-xl text-pes_white duration-200 group-hover:font-bold group-hover:text-pes_logoblue">
+                                    Learn at Centre
+                                </h1>
+                                <button className="h-fit rounded-full bg-pes_white px-8 py-4 text-sm text-pes_logoblue duration-200 hover:bg-orange-300 hover:text-white group-hover:bg-pes_orange group-hover:text-pes_white md:text-base">
+                                    Join Us
+                                </button>
+                            </div>
+                        </div>
+                        <div className="frame learn-online-frame group mx-auto grid aspect-[320/218] w-full place-items-center rounded-[48px] border-r-8 bg-cover after:rounded-[48px] md:w-[491px]">
+                            <div className="z-10 flex flex-col gap-4">
+                                <h1 className=" text-center text-xl text-pes_white duration-200 group-hover:font-bold group-hover:text-pes_logoblue">
+                                    Learn Online
+                                </h1>
+                                <button className="h-fit rounded-full bg-pes_white px-8 py-4 text-sm text-pes_logoblue duration-200 hover:bg-orange-300 hover:text-white group-hover:bg-pes_orange group-hover:text-pes_white md:text-base">
+                                    Start Now
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
