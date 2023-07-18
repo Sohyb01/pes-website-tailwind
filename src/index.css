@@ -51,7 +51,8 @@ a {
     color: inherit;
 }
 
-.nav-logo {
+.nav-logo,
+.footer-logo {
     background-image: url(./assets/logo-white.png);
 }
 
@@ -119,6 +120,18 @@ a {
 .frame:hover {
     background: rgba(255, 255, 255, 0.8);
     transition-duration: 200ms;
+}
+
+.businessman-img {
+    background-image: url(./assets/boy-with-pen-tablet-notes.jpg);
+}
+
+.testimonials-image {
+    background-image: url(./assets/testimonials.png);
+}
+
+.partnerships-image {
+    background-image: url(./assets/schoolchildren-typing-laptop.jpg);
 }
 
 @media screen and (min-width: 1080px) {
