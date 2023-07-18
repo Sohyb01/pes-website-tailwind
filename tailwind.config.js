@@ -3,6 +3,9 @@ export default {
     content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
     theme: {
         extend: {
+            aspectRatio: {
+                '4/3': '4 / 3',
+            },
             colors: {
                 pes_black: '#131313',
                 pes_white: '#fbfbfb',

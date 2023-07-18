@@ -1,48 +1,49 @@
 const Home = () => {
     return (
         <div className="">
+            {/* Hero Section */}
             <section className="">
-                <div className="hero-section flex h-[482px] flex-col items-center gap-8 bg-cover bg-bottom px-[10px] py-[20px] sm:px-[20px] sm:py-[40px] md:h-[789px] lg:h-[720px] lg:py-[60px] xl:h-[794px] xl:py-[80px] 2xl:h-[974px] xl:px-[220px]">
-                    <div className="sm:container z-10 flex flex-col gap-8 lg:gap-16">
-                    <div className="flex flex-col">
-                        <h1 className="text-2xl font-bold text-pes_logoblue md:text-5xl 2xl:text-6xl max-w-[17ch]">
-                            <span className="text-pes_orange">
-                                Programming{' '}
-                            </span>{' '}
-                            is now much easier
-                        </h1>
-                        <p className="text-pes_darkblue md:text-xl 2xl:text-2xl max-w-[38ch] sm:max-w-[30ch]">
-                            PES is an interactive platform that will teach you
-                            in a more interesting way
-                        </p>
+                <div className="hero-section flex h-[482px] flex-col items-center gap-8 bg-cover bg-bottom px-[10px] py-[20px] sm:px-[20px] sm:py-[40px] md:h-[789px] lg:h-[720px] lg:py-[60px] xl:h-[794px] xl:px-[220px] xl:py-[80px] 2xl:h-[974px]">
+                    <div className="z-10 flex flex-col gap-8 sm:container lg:gap-16">
+                        <div className="flex flex-col">
+                            <h1 className="max-w-[17ch] text-2xl font-bold text-pes_logoblue md:text-5xl 2xl:text-6xl">
+                                <span className="text-pes_orange">
+                                    Programming{' '}
+                                </span>{' '}
+                                is now much easier
+                            </h1>
+                            <p className="max-w-[38ch] text-pes_darkblue sm:max-w-[30ch] md:text-xl 2xl:text-2xl">
+                                PES is an interactive platform that will teach
+                                you in a more interesting way
+                            </p>
+                        </div>
+                        <div className="flex gap-4 md:gap-8">
+                            <button className="h-fit rounded-full bg-pes_orange px-8 py-4 text-sm text-pes_white duration-200 hover:bg-orange-300 md:text-lg">
+                                Join Us
+                            </button>
+                            <button className="grid h-[53px] w-[53px] place-items-center rounded-full border-2 border-solid border-pes_darkblue bg-pes_white fill-pes_darkblue duration-200 hover:border-pes_orange hover:bg-pes_orange hover:fill-pes_white md:h-16 md:w-16">
+                                <svg
+                                    className="ml-[3px]"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="16"
+                                    height="20"
+                                    viewBox="0 0 24 28"
+                                >
+                                    <path d="M23 13.134C23.6667 13.5189 23.6667 14.4811 23 14.866L2 26.9904C1.33333 27.3753 0.500001 26.8942 0.500001 26.1244L0.500002 1.87564C0.500002 1.10584 1.33334 0.624718 2 1.00962L23 13.134Z" />
+                                </svg>
+                            </button>
+                        </div>
                     </div>
-                    <div className="flex gap-4 md:gap-8">
-                        <button className="text-sm md:text-lg h-fit rounded-full bg-pes_orange px-8 py-4 text-pes_white duration-200 hover:bg-orange-300">
-                            Join Us
-                        </button>
-                        <button className="fill-pes_darkblue hover:fill-pes_white rounded-full bg-pes_white duration-200 hover:bg-pes_orange border-2 border-solid hover:border-pes_orange border-pes_darkblue grid place-items-center h-[53px] md:h-16 w-[53px] md:w-16">
-                            <svg
-                                className="ml-[3px]"
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="16"
-                                height="20"
-                                viewBox="0 0 24 28"
-                            >
-                                <path d="M23 13.134C23.6667 13.5189 23.6667 14.4811 23 14.866L2 26.9904C1.33333 27.3753 0.500001 26.8942 0.500001 26.1244L0.500002 1.87564C0.500002 1.10584 1.33334 0.624718 2 1.00962L23 13.134Z" />
-                            </svg>
-                        </button>
-                    </div>
-                    </div>
-
                 </div>
             </section>
-            <section className="">
-                <div className="">
-                    <h1>
-                        About <span>Us</span>
+            {/* About section */}
+            <section className="sm:py[20px] md:py[40px] md:px[30px] mx-auto px-[10px] py-[16px] sm:container lg:max-w-[1080px] lg:px-[40px] lg:py-[80px]">
+                <div className="flex flex-col items-center">
+                    <h1 className="mb-4 text-left text-xl font-bold text-pes_darkblue md:text-center lg:text-xl">
+                        About <span className="text-pes_orange">Us</span>
                     </h1>
-                    <div className="">
-                        <div className="">
+                    <div className="video-and-paragraphs flex flex-col items-start gap-8 lg:flex-row lg:gap-4">
+                        <div className="flex flex-col  gap-4 text-left md:gap-8 lg:text-lg">
                             <p>
                                 Programmer’s Elite School is an educational
                                 solution which teaches highly-valued programming
@@ -56,10 +57,11 @@ const Home = () => {
                             </p>
                         </div>
 
-                        <div className="">
-                            <div className="">
-                                <button className="">
+                        <div className="video-and-video-subtext flex w-full flex-col items-center gap-2  sm:gap-4">
+                            <div className="pes-video grid aspect-video w-full place-items-center rounded-[40px] border-2 border-solid border-pes_darkblue bg-cover">
+                                <button className="grid h-[53px] w-[53px] place-items-center rounded-full border-2 border-solid border-pes_darkblue bg-pes_white fill-pes_darkblue duration-200 hover:border-pes_orange hover:bg-pes_orange hover:fill-pes_white md:h-16 md:w-16">
                                     <svg
+                                        className="ml-[3px]"
                                         xmlns="http://www.w3.org/2000/svg"
                                         width="16"
                                         height="20"
@@ -69,7 +71,7 @@ const Home = () => {
                                     </svg>
                                 </button>
                             </div>
-                            <div className="">
+                            <div className="w-[320px] text-center text-sm sm:w-[440px] md:w-[688px]  md:text-base lg:w-[492px] lg:text-sm">
                                 PES Leader granting a shield to the minister of
                                 youth and sports
                             </div>
@@ -77,8 +79,11 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            <div className="">
+
+            {/* Divider */}
+            <section className="md:py[40px] mx-auto py-[16px] lg:py-[80px]">
                 <svg
+                    className="mx-auto fill-pes_orange"
                     xmlns="http://www.w3.org/2000/svg"
                     width="236"
                     height="3"
@@ -90,8 +95,33 @@ const Home = () => {
                     <path d="M182 1.5C182 0.671573 182.672 0 183.5 0H220.5C221.328 0 222 0.671573 222 1.5C222 2.32843 221.328 3 220.5 3H183.5C182.672 3 182 2.32843 182 1.5Z" />
                     <path d="M226 1.5C226 0.671573 226.672 0 227.5 0H234.5C235.328 0 236 0.671573 236 1.5C236 2.32843 235.328 3 234.5 3H227.5C226.672 3 226 2.32843 226 1.5Z" />
                 </svg>
-            </div>
-            <section className=""></section>
+            </section>
+
+            <section className="sm:py[16px] md:py[40px] md:px[30px] mx-auto px-[10px] py-[16px] sm:container lg:max-w-[1080px] lg:px-[40px] lg:py-[80px]">
+                <div className="flex flex-col items-center">
+                    <h1 className="mb-4 max-w-[830px] text-center text-xl font-bold text-pes_darkblue lg:text-xl">
+                        Unleash your child’s inner genius with our{' '}
+                        <span className="text-pes_orange">
+                            fun-filled programming courses
+                        </span>
+                    </h1>
+                    <div className="paragraphs flex max-w-[830px] flex-col items-start gap-8 lg:flex-row lg:gap-4">
+                        <div className="flex flex-col  gap-4 text-center md:gap-8 lg:text-lg">
+                            <p>
+                                We believe that coding is an essential skill for
+                                the future, and we are committed to making it
+                                accessible and fun for children of all ages.
+                            </p>
+                            <p>
+                                Our academy offers a wide range of programming
+                                courses designed specifically for kids, taught
+                                by experienced instructors who are passionate
+                                about coding and teaching.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <section className=""></section>
             <section className=""></section>
             <section className=""></section>
