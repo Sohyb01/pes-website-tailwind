@@ -304,7 +304,7 @@ const Home = () => {
 
             {/* Testimonials Section */}
             <section className="mx-auto px-[10px] py-[16px] sm:container sm:py-[16px] md:px-[30px] md:py-[40px] lg:max-w-[1080px] lg:px-[40px] lg:py-[80px]">
-                <div className="flex gap-4 lg:items-center">
+                <div className="mb-4 flex gap-4 lg:items-center">
                     <div className="flex flex-col items-center gap-4 lg:w-[592px] lg:items-start lg:gap-8">
                         <h1 className="max-w-[30ch] text-center text-xl font-bold text-pes_darkblue lg:text-start lg:text-2xl">
                             Testimonials
@@ -338,6 +338,75 @@ const Home = () => {
                             </button>
                         </div>
                         <div className="partnerships-image aspect-[320/213] rounded-[16px] bg-cover sm:w-full"></div>
+                    </div>
+                </div>
+            </section>
+
+            {/* FAQ Section */}
+            <section className="mx-auto px-[10px] py-[16px] sm:container sm:py-[16px] md:px-[30px] md:py-[40px] lg:max-w-[1080px] lg:px-[40px] lg:py-[80px]">
+                <div className="join join-vertical w-full shadow-xl">
+                    <div className="collapse-arrow collapse join-item border border-pes_darkgray">
+                        <input type="radio" name="my-accordion-4" />
+                        <div className="collapse-title text-base text-pes_darkgray md:text-lg">
+                            What do we do?
+                        </div>
+                        <div className="collapse-content">
+                            <p className="text-sm text-pes_darkgray md:text-base">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Placeat minus adipisci
+                                repellat recusandae repudiandae, expedita est
+                                vel quasi sequi optio.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="h-[1px] w-full bg-pes_mediumgray"></div>
+                    <div className="collapse-arrow collapse join-item border border-pes_darkgray">
+                        <input type="radio" name="my-accordion-4" />
+                        <div className="collapse-title text-base text-pes_darkgray md:text-lg">
+                            How does the PES curriculum help kids perform better
+                            academically?
+                        </div>
+                        <div className="collapse-content">
+                            <p className="text-sm text-pes_darkgray md:text-base">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Placeat minus adipisci
+                                repellat recusandae repudiandae, expedita est
+                                vel quasi sequi optio.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="h-[1px] w-full bg-pes_mediumgray"></div>
+                    <div className="collapse-arrow collapse join-item border border-pes_darkgray">
+                        <input type="radio" name="my-accordion-4" />
+
+                        <div className="collapse-title text-base text-pes_darkgray md:text-lg">
+                            What topics are taught in the PES curriculum?
+                        </div>
+                        <div className="collapse-content">
+                            <p className="text-sm text-pes_darkgray md:text-base">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Placeat minus adipisci
+                                repellat recusandae repudiandae, expedita est
+                                vel quasi sequi optio.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="h-[1px] w-full bg-pes_mediumgray"></div>
+
+                    <div className="collapse-arrow collapse join-item border border-pes_darkgray">
+                        <input type="radio" name="my-accordion-4" />
+                        <div className="collapse-title text-base text-pes_darkgray md:text-lg">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit?
+                        </div>
+                        <div className="collapse-content">
+                            <p className="text-sm text-pes_darkgray md:text-base">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Placeat minus adipisci
+                                repellat recusandae repudiandae, expedita est
+                                vel quasi sequi optio.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </section>
