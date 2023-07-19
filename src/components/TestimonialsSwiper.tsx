@@ -51,7 +51,7 @@ const TestimonialsSwiper = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex w-full max-w-[336px] flex-col items-center gap-4 rounded-[16px] border-2 border-l-8 border-solid border-pes_lightgray border-l-pes_lightblue px-8 py-4 shadow-xl lg:max-w-[484px]">
+            <div className="hidden w-full max-w-[336px] flex-col items-center gap-4 rounded-[16px] border-2 border-l-8 border-solid border-pes_lightgray border-l-pes_lightblue px-8 py-4 shadow-xl md:flex lg:max-w-[484px]">
                 <div className="text-left text-sm text-pes_darkgray lg:text-base">
                     "Thank you so much for your help. It's exactly what I've
                     been looking for. You won't regret it. It really saves me
