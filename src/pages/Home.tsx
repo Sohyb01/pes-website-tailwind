@@ -1,3 +1,5 @@
+import TestimonialsSwiper from '../components/TestimonialsSwiper'
+
 const Home = () => {
     return (
         <div className="">
@@ -81,7 +83,7 @@ const Home = () => {
             </section>
 
             {/* Divider */}
-            <section className="mx-auto py-[16px] md:py-[40px] lg:py-[80px]">
+            <section className="mx-auto">
                 <svg
                     className="mx-auto fill-pes_orange"
                     xmlns="http://www.w3.org/2000/svg"
@@ -95,6 +97,30 @@ const Home = () => {
                     <path d="M182 1.5C182 0.671573 182.672 0 183.5 0H220.5C221.328 0 222 0.671573 222 1.5C222 2.32843 221.328 3 220.5 3H183.5C182.672 3 182 2.32843 182 1.5Z" />
                     <path d="M226 1.5C226 0.671573 226.672 0 227.5 0H234.5C235.328 0 236 0.671573 236 1.5C236 2.32843 235.328 3 234.5 3H227.5C226.672 3 226 2.32843 226 1.5Z" />
                 </svg>
+            </section>
+
+            {/* Trusted By Section */}
+            <section className=" mx-auto px-[10px] py-[16px] sm:container sm:py-[20px] md:px-[30px] md:py-[40px] lg:max-w-[1080px] lg:px-[40px] lg:py-[80px]">
+                <h1 className="mb-4 text-left text-xl font-bold text-pes_darkblue md:text-center lg:text-2xl">
+                    Trusted by International{' '}
+                    <span className="text-pes_orange">&</span> Government
+                    Institutions
+                </h1>
+                <div className="partners-wrapper relative h-[120px] w-full overflow-hidden md:h-[160px]">
+                    <div className="partners-belt absolute left-0 top-0 flex gap-8 md:gap-16">
+                        <div className="partner-1 aspect-square h-[120px] bg-cover md:h-[160px]"></div>
+                        <div className="partner-2 aspect-square h-[120px] bg-cover md:h-[160px]"></div>
+                        <div className="partner-3 aspect-[135/120] h-[120px] bg-cover md:h-[160px]"></div>
+                        <div className="partner-4 aspect-square h-[120px] bg-cover md:h-[160px]"></div>
+                        <div className="partner-5 aspect-[306/160] h-[120px] bg-cover md:h-[160px]"></div>
+                        {/* Repeated logos, Necessary for animation to work properly!! */}
+                        <div className="partner-1 aspect-square h-[120px] bg-cover md:h-[160px]"></div>
+                        <div className="partner-2 aspect-square h-[120px] bg-cover md:h-[160px]"></div>
+                        <div className="partner-3 aspect-[135/120] h-[120px] bg-cover md:h-[160px]"></div>
+                        <div className="partner-4 aspect-square h-[120px] bg-cover md:h-[160px]"></div>
+                        <div className="partner-5 aspect-[306/160] h-[120px] bg-cover md:h-[160px]"></div>
+                    </div>
+                </div>
             </section>
 
             {/* Unleash Section */}
@@ -147,7 +173,7 @@ const Home = () => {
             </section>
 
             {/* Divider */}
-            <section className="mx-auto py-[16px] md:py-[40px] lg:py-[80px]">
+            <section className="mx-auto">
                 <svg
                     className="mx-auto fill-pes_orange"
                     xmlns="http://www.w3.org/2000/svg"
@@ -194,7 +220,7 @@ const Home = () => {
             </section>
 
             {/* Divider */}
-            <section className="mx-auto py-[16px] md:py-[40px] lg:py-[80px]">
+            <section className="mx-auto">
                 <svg
                     className="mx-auto fill-pes_orange"
                     xmlns="http://www.w3.org/2000/svg"
@@ -260,7 +286,7 @@ const Home = () => {
             </section>
 
             {/* Divider */}
-            <section className="mx-auto py-[16px] md:py-[40px] lg:py-[80px]">
+            <section className="mx-auto">
                 <svg
                     className="mx-auto fill-pes_orange"
                     xmlns="http://www.w3.org/2000/svg"
@@ -294,23 +320,8 @@ const Home = () => {
                     </div>
                     <div className="testimonials-image hidden h-[366px] w-[390px] bg-cover lg:block"></div>
                 </div>
-            </section>
-
-            {/* Divider */}
-            <section className="mx-auto py-[16px] md:py-[40px] lg:py-[80px]">
-                <svg
-                    className="mx-auto fill-pes_orange"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="236"
-                    height="3"
-                    viewBox="0 0 236 3"
-                >
-                    <path d="M0 1.5C0 0.671573 0.671573 0 1.5 0H8.5C9.32843 0 10 0.671573 10 1.5C10 2.32843 9.32843 3 8.5 3H1.5C0.671573 3 0 2.32843 0 1.5Z" />
-                    <path d="M14 1.5C14 0.671573 14.6716 0 15.5 0H52.5C53.3284 0 54 0.671573 54 1.5C54 2.32843 53.3284 3 52.5 3H15.5C14.6716 3 14 2.32843 14 1.5Z" />
-                    <path d="M58 1.5C58 0.671573 58.6716 0 59.5 0H176.5C177.328 0 178 0.671573 178 1.5C178 2.32843 177.328 3 176.5 3H59.5C58.6716 3 58 2.32843 58 1.5Z" />
-                    <path d="M182 1.5C182 0.671573 182.672 0 183.5 0H220.5C221.328 0 222 0.671573 222 1.5C222 2.32843 221.328 3 220.5 3H183.5C182.672 3 182 2.32843 182 1.5Z" />
-                    <path d="M226 1.5C226 0.671573 226.672 0 227.5 0H234.5C235.328 0 236 0.671573 236 1.5C236 2.32843 235.328 3 234.5 3H227.5C226.672 3 226 2.32843 226 1.5Z" />
-                </svg>
+                {/* Testimonials Swiper */}
+                <TestimonialsSwiper></TestimonialsSwiper>
             </section>
 
             {/* Looking for partnerships section */}
@@ -437,25 +448,25 @@ const Home = () => {
                                     <div className="flex w-fit flex-col gap-4">
                                         <a
                                             href=""
-                                            className="text-sm text-pes_white md:text-base"
+                                            className="text-sm text-pes_white duration-200 hover:text-pes_orange md:text-base"
                                         >
                                             About
                                         </a>
                                         <a
                                             href=""
-                                            className="text-sm text-pes_white md:text-base"
+                                            className="text-sm text-pes_white duration-200 hover:text-pes_orange md:text-base"
                                         >
                                             Tracks
                                         </a>
                                         <a
                                             href=""
-                                            className="text-sm text-pes_white md:text-base"
+                                            className="text-sm text-pes_white duration-200 hover:text-pes_orange md:text-base"
                                         >
                                             Online Courses
                                         </a>
                                         <a
                                             href=""
-                                            className="text-sm text-pes_white md:text-base"
+                                            className="text-sm text-pes_white duration-200 hover:text-pes_orange md:text-base"
                                         >
                                             Features
                                         </a>
@@ -464,25 +475,25 @@ const Home = () => {
                                     <div className="flex w-fit flex-col gap-4">
                                         <a
                                             href=""
-                                            className="text-sm text-pes_white md:text-base"
+                                            className="text-sm text-pes_white duration-200 hover:text-pes_orange md:text-base"
                                         >
                                             Partnerships
                                         </a>
                                         <a
                                             href=""
-                                            className="text-sm text-pes_white md:text-base"
+                                            className="text-sm text-pes_white duration-200 hover:text-pes_orange md:text-base"
                                         >
                                             Certifications
                                         </a>
                                         <a
                                             href=""
-                                            className="text-sm text-pes_white md:text-base"
+                                            className="text-sm text-pes_white duration-200 hover:text-pes_orange md:text-base"
                                         >
                                             Franchises
                                         </a>
                                         <a
                                             href=""
-                                            className="text-sm text-pes_white md:text-base"
+                                            className="text-sm text-pes_white duration-200 hover:text-pes_orange md:text-base"
                                         >
                                             Leaderboard
                                         </a>
@@ -491,19 +502,19 @@ const Home = () => {
                                     <div className="flex w-fit flex-col gap-4">
                                         <a
                                             href=""
-                                            className="text-sm text-pes_white md:text-base"
+                                            className="text-sm text-pes_white duration-200 hover:text-pes_orange md:text-base"
                                         >
                                             Become an Instructor
                                         </a>
                                         <a
                                             href=""
-                                            className="text-sm text-pes_white md:text-base"
+                                            className="text-sm text-pes_white duration-200 hover:text-pes_orange md:text-base"
                                         >
                                             Join as student
                                         </a>
                                         <a
                                             href=""
-                                            className="text-sm text-pes_white md:text-base"
+                                            className="text-sm text-pes_white duration-200 hover:text-pes_orange md:text-base"
                                         >
                                             Free trial
                                         </a>
@@ -511,7 +522,7 @@ const Home = () => {
                                 </div>
                             </div>
                             {/* Newsletter buttons container */}
-                            <div className="flex flex-col gap-4 md:flex-row">
+                            <div className="flex flex-col justify-center gap-4 md:flex-row">
                                 <input
                                     type="text"
                                     placeholder="Email Address"

@@ -84,6 +84,57 @@ a {
     background-image: url(./assets/video-image.png);
 }
 
+/* Partners animation! */
+@keyframes partners-animation {
+    0% {
+        transform: translateX(0px)
+    }
+
+    100% {
+        /* -50% minus half of the width of the gap of the belt */
+        transform: translateX(calc(-50% - 16px));
+    }
+}
+
+@media screen and (min-width: 768px) {
+    @keyframes partners-animation {
+        100% {
+            transform: translateX(calc(-50% - 32px));
+        }
+    }
+}
+
+.partners-belt {
+    animation-name: partners-animation;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+.partner-1 {
+    background-image: url(./assets/client1.png);
+}
+
+.partner-2 {
+    background-image: url(./assets/client2.png);
+}
+
+.partner-3 {
+    background-image: url(./assets/client3.png);
+}
+
+.partner-4 {
+    background-image: url(./assets/client4.png);
+}
+
+.partner-5 {
+    background-image: url(./assets/client5.png);
+}
+
 .frame {
     position: relative;
     background: rgba(255, 255, 255, 0.0);
@@ -146,4 +197,9 @@ a {
                 rgba(255, 255, 255, 0),
                 rgba(255, 255, 255, 0));
     }
+
+    .businessman-img {
+        background-position-x: -50px;
+    }
+
 }
