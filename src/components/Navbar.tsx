@@ -38,60 +38,71 @@ const Navbar = () => {
                                     </svg>
                                 </div>
                             </a> */}
-                            <div className="dropdown dropdown-end">
+                            <div className="dropdown-end dropdown">
                                 <label
                                     tabIndex={0}
                                     className="m-1 text-pes_white duration-200 hover:text-pes_orange"
                                 >
                                     More
+                                    {/* <p className="hidden lg:block">More</p> */}
                                 </label>
                                 <ul
                                     tabIndex={0}
                                     className="menu dropdown-content rounded-box z-[50] h-fit bg-base-100"
                                 >
-                                    <li className="text-pes_black duration-200 hover:bg-pes_orange hover:text-pes_white">
-                                        <a className="hover:text-pes_white">
+                                    <li className="hidden lg:block">
+                                        <a className="text-pes_lightblue duration-200 hover:text-pes_orange">
                                             Become an Instructor
                                         </a>
                                     </li>
-                                    <li className="text-pes_black duration-200 hover:bg-pes_orange hover:text-pes_white">
-                                        <a className="hover:text-pes_white">
+                                    <li className="hidden lg:block">
+                                        <a className="text-pes_lightblue duration-200 hover:text-pes_orange">
                                             Become an Instructor
                                         </a>
                                     </li>
-                                    <li className="text-pes_black duration-200 hover:bg-pes_orange hover:text-pes_white">
-                                        <a className="hover:text-pes_white">
+                                    <li className="hidden lg:block">
+                                        <a className="text-pes_lightblue duration-200 hover:text-pes_orange">
+                                            Become an Instructor
+                                        </a>
+                                    </li>
+                                    <li className="">
+                                        <a className="text-pes_lightblue duration-200 hover:text-pes_orange">
+                                            Become an Instructor
+                                        </a>
+                                    </li>
+                                    <li className="">
+                                        <a className="text-pes_lightblue duration-200 hover:text-pes_orange">
                                             Online courses
                                         </a>
                                     </li>
-                                    <li className="text-pes_black duration-200 hover:bg-pes_orange hover:text-pes_white">
-                                        <a className="hover:text-pes_white">
+                                    <li className="">
+                                        <a className="text-pes_lightblue duration-200 hover:text-pes_orange">
                                             Partnerships
                                         </a>
                                     </li>
-                                    <li className="text-pes_black duration-200 hover:bg-pes_orange hover:text-pes_white">
-                                        <a className="hover:text-pes_white">
+                                    <li className="">
+                                        <a className="text-pes_lightblue duration-200 hover:text-pes_orange">
                                             Join as student
                                         </a>
                                     </li>
-                                    <li className="text-pes_black duration-200 hover:bg-pes_orange hover:text-pes_white">
-                                        <a className="hover:text-pes_white">
+                                    <li className="">
+                                        <a className="text-pes_lightblue duration-200 hover:text-pes_orange">
                                             Certifications
                                         </a>
                                     </li>
-                                    <li className="text-pes_black duration-200 hover:bg-pes_orange hover:text-pes_white">
-                                        <a className="hover:text-pes_white">
+                                    <li className="">
+                                        <a className="text-pes_lightblue duration-200 hover:text-pes_orange">
                                             Franchises
                                         </a>
                                     </li>
-                                    <li className="text-pes_black duration-200 hover:bg-pes_orange hover:text-pes_white">
-                                        <a className="hover:text-pes_white">
+                                    <li className="">
+                                        <a className="text-pes_lightblue duration-200 hover:text-pes_orange">
                                             Leaderboard
                                         </a>
                                     </li>
-                                    <li className="text-pes_black duration-200 hover:bg-pes_orange hover:text-pes_white">
-                                        <a className="text-inherit">
-                                            Free trail
+                                    <li className="">
+                                        <a className="text-pes_lightblue duration-200 hover:text-pes_orange">
+                                            Free Trial
                                         </a>
                                     </li>
                                 </ul>
@@ -100,33 +111,100 @@ const Navbar = () => {
                         <button className="text-md h-fit rounded-full bg-pes_orange px-8 py-2 text-pes_white duration-200 hover:bg-orange-300 md:py-4">
                             Login
                         </button>
-                        <button className="lg:hidden">
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="19"
-                                height="12"
-                                viewBox="0 0 19 12"
+                        <div className="dropdown-end dropdown">
+                            <label
+                                tabIndex={0}
+                                className="m-1 text-pes_white duration-200 hover:text-pes_orange"
                             >
-                                <path
-                                    d="M1.5 1H17.5"
-                                    stroke="white"
-                                    stroke-width="1.5"
-                                    stroke-linecap="round"
-                                />
-                                <path
-                                    d="M1.5 6H17.5"
-                                    stroke="white"
-                                    stroke-width="1.5"
-                                    stroke-linecap="round"
-                                />
-                                <path
-                                    d="M1.5 11H17.5"
-                                    stroke="white"
-                                    stroke-width="1.5"
-                                    stroke-linecap="round"
-                                />
-                            </svg>
-                        </button>
+                                <button className="lg:hidden">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="19"
+                                        height="12"
+                                        viewBox="0 0 19 12"
+                                    >
+                                        <path
+                                            d="M1.5 1H17.5"
+                                            stroke="white"
+                                            stroke-width="1.5"
+                                            stroke-linecap="round"
+                                        />
+                                        <path
+                                            d="M1.5 6H17.5"
+                                            stroke="white"
+                                            stroke-width="1.5"
+                                            stroke-linecap="round"
+                                        />
+                                        <path
+                                            d="M1.5 11H17.5"
+                                            stroke="white"
+                                            stroke-width="1.5"
+                                            stroke-linecap="round"
+                                        />
+                                    </svg>
+                                </button>
+                            </label>
+                            <ul
+                                tabIndex={0}
+                                className="menu dropdown-content rounded-box z-[50] h-fit bg-base-100"
+                            >
+                                <li className="lg:block">
+                                    <a className="text-pes_lightblue duration-200 hover:text-pes_orange">
+                                        Become an Instructor
+                                    </a>
+                                </li>
+                                <li className="lg:block">
+                                    <a className="text-pes_lightblue duration-200 hover:text-pes_orange">
+                                        Become an Instructor
+                                    </a>
+                                </li>
+                                <li className="lg:block">
+                                    <a className="text-pes_lightblue duration-200 hover:text-pes_orange">
+                                        Become an Instructor
+                                    </a>
+                                </li>
+                                <li className="">
+                                    <a className="text-pes_lightblue duration-200 hover:text-pes_orange">
+                                        Become an Instructor
+                                    </a>
+                                </li>
+                                <li className="">
+                                    <a className="text-pes_lightblue duration-200 hover:text-pes_orange">
+                                        Online courses
+                                    </a>
+                                </li>
+                                <li className="">
+                                    <a className="text-pes_lightblue duration-200 hover:text-pes_orange">
+                                        Partnerships
+                                    </a>
+                                </li>
+                                <li className="">
+                                    <a className="text-pes_lightblue duration-200 hover:text-pes_orange">
+                                        Join as student
+                                    </a>
+                                </li>
+                                <li className="">
+                                    <a className="text-pes_lightblue duration-200 hover:text-pes_orange">
+                                        Certifications
+                                    </a>
+                                </li>
+                                <li className="">
+                                    <a className="text-pes_lightblue duration-200 hover:text-pes_orange">
+                                        Franchises
+                                    </a>
+                                </li>
+                                <li className="">
+                                    <a className="text-pes_lightblue duration-200 hover:text-pes_orange">
+                                        Leaderboard
+                                    </a>
+                                </li>
+                                <li className="">
+                                    <a className="text-pes_lightblue duration-200 hover:text-pes_orange">
+                                        Free Trial
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </nav>

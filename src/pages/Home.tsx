@@ -345,6 +345,9 @@ const Home = () => {
 
             {/* FAQ Section */}
             <section className="mx-auto px-[10px] py-[16px] sm:container sm:py-[16px] md:px-[30px] md:py-[40px] lg:max-w-[1080px] lg:px-[40px] lg:py-[80px]">
+                <h1 className="mx-auto mb-4 max-w-[30ch] text-center text-xl font-bold text-pes_darkblue lg:text-2xl">
+                    Frequently Asked Questions
+                </h1>
                 <div className="join join-vertical w-full shadow-xl">
                     <div className="collapse join-item collapse-arrow">
                         <input type="radio" name="my-accordion-4" />
