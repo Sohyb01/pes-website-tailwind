@@ -110,9 +110,9 @@ const About = () => {
                                         {/* Image and bg with socials */}
                                         <div
                                             style={{
-                                                backgroundImage: `url('/@fs/D:/Programs/VSCode/Other ReactJS practice/pes-website-tailwind/pes-website-tailwind/src${person.img}')`,
+                                                // backgroundImage: `url('/@fs/D:/Programs/VSCode/Other ReactJS practice/pes-website-tailwind/pes-website-tailwind/src${person.img}')`,
                                                 // If theres an issue when hosting, try this instead
-                                                // backgroundImage: `url('${person.img}')`,
+                                                backgroundImage: `url('${person.img}')`,
                                             }}
                                             className="card-img relative flex h-[185px] w-[185px] rounded-sm bg-cover md:h-[300px] md:w-[300px]"
                                         >
