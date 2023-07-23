@@ -3,7 +3,7 @@ const members = {
         {
             name: 'Mostafa Kamel',
             role: 'Founder & CEO',
-            img: '/assets/mostafapfp.jpg',
+            img: 'https://i.imgur.com/SV3iyiq.jpg',
             instagram: 'https://www.instagram.com/pesmisr/',
             facebook: 'https://www.facebook.com/pesmisr',
             linkedin: 'https://www.linkedin.com/company/pesmisr/',
@@ -11,7 +11,7 @@ const members = {
         {
             name: 'Ahmed Khaled',
             role: 'Founder & CTO',
-            img: '/assets/fawzypfp.jpg',
+            img: 'https://i.imgur.com/6KLbNoh.jpg',
             instagram: 'https://www.instagram.com/pesmisr/',
             facebook: 'https://www.facebook.com/pesmisr',
             linkedin: 'https://www.linkedin.com/company/pesmisr/',
@@ -19,7 +19,7 @@ const members = {
         {
             name: 'Ahmed Reda',
             role: 'Founder & COO',
-            img: '/assets/redapfp.jpg',
+            img: 'https://i.imgur.com/GzbsudZ.jpg',
             instagram: 'https://www.instagram.com/pesmisr/',
             facebook: 'https://www.facebook.com/pesmisr',
             linkedin: 'https://www.linkedin.com/company/pesmisr/',
@@ -29,7 +29,7 @@ const members = {
         {
             name: 'Sohyb Ibrahim',
             role: 'Instructor & ...',
-            img: '/assets/sohybpfp.jpg',
+            img: 'https://i.imgur.com/DvVI9xc.jpg',
             instagram: 'https://www.instagram.com/pesmisr/',
             facebook: 'https://www.facebook.com/pesmisr',
             linkedin: 'https://www.linkedin.com/company/pesmisr/',
@@ -37,7 +37,7 @@ const members = {
         {
             name: 'Amer Ashraf',
             role: 'Instructor & ...',
-            img: '/assets/3amerpfp.jpg',
+            img: 'https://i.imgur.com/1ESBihz.jpg',
             instagram: 'https://www.instagram.com/pesmisr/',
             facebook: 'https://www.facebook.com/pesmisr',
             linkedin: 'https://www.linkedin.com/company/pesmisr/',
@@ -45,7 +45,7 @@ const members = {
         {
             name: 'Nada Zhran',
             role: 'Instructor & ...',
-            img: '/assets/nadazahranpfp.jpg',
+            img: 'https://i.imgur.com/aw94NdG.jpg',
             instagram: 'https://www.instagram.com/pesmisr/',
             facebook: 'https://www.facebook.com/pesmisr',
             linkedin: 'https://www.linkedin.com/company/pesmisr/',
@@ -53,7 +53,7 @@ const members = {
         {
             name: 'Raneem Emad',
             role: 'Instructor & ...',
-            img: '/assets/raneempfp.jpg',
+            img: 'https://i.imgur.com/mjxJ2in.png',
             instagram: 'https://www.instagram.com/pesmisr/',
             facebook: 'https://www.facebook.com/pesmisr',
             linkedin: 'https://www.linkedin.com/company/pesmisr/',
@@ -61,7 +61,7 @@ const members = {
         {
             name: 'Mayar Abdel Aty',
             role: 'Instructor & ...',
-            img: '/assets/mayarpfp.jpg',
+            img: 'https://i.imgur.com/5vJtELE.jpg',
             instagram: 'https://www.instagram.com/pesmisr/',
             facebook: 'https://www.facebook.com/pesmisr',
             linkedin: 'https://www.linkedin.com/company/pesmisr/',
