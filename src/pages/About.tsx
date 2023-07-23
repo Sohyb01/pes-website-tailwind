@@ -70,7 +70,7 @@ const About = () => {
 
             {/* Trusted By Section */}
             <section className=" mx-auto px-[10px] py-[16px] sm:container sm:py-[20px] md:px-[30px] md:py-[40px] lg:max-w-[1080px] lg:px-[40px] lg:py-[80px]">
-                <h1 className="mb-4 text-left text-xl font-bold text-pes_darkblue md:text-center lg:text-2xl">
+                <h1 className="mb-4 text-center text-xl font-bold text-pes_darkblue md:text-center lg:text-2xl">
                     Trusted by International{' '}
                     <span className="text-pes_orange">&</span> Government
                     Institutions
