@@ -1,5 +1,4 @@
 import TestimonialsSwiper from '../components/TestimonialsSwiper'
-import Footer from '../components/Footer'
 
 const Home = () => {
     return (
