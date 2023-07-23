@@ -226,6 +226,12 @@ a {
     background-image: url(./assets/schoolchildren-typing-laptop.jpg);
 }
 
+.member-socials {
+    content: ""
+}
+
+
+
 @media screen and (min-width: 1080px) {
     .hero-section {
         background-position-x: 12px;
