@@ -22,7 +22,7 @@ const Navbar = () => {
                                 href=""
                                 className="text-md text-pes_white duration-200 hover:text-pes_orange"
                             >
-                                Plans
+                                Programs
                             </a>
                             {/* <a
                                 href=""
@@ -38,7 +38,7 @@ const Navbar = () => {
                                     </svg>
                                 </div>
                             </a> */}
-                            <div className="dropdown dropdown-end">
+                            <div className="dropdown-end dropdown">
                                 <label
                                     tabIndex={0}
                                     className="m-1 text-pes_white duration-200 hover:text-pes_orange"
@@ -50,21 +50,6 @@ const Navbar = () => {
                                     tabIndex={0}
                                     className="menu dropdown-content rounded-box z-[50] h-fit bg-base-100"
                                 >
-                                    <li className="hidden lg:block">
-                                        <a className="text-pes_lightblue duration-200 hover:text-pes_orange">
-                                            Become an Instructor
-                                        </a>
-                                    </li>
-                                    <li className="hidden lg:block">
-                                        <a className="text-pes_lightblue duration-200 hover:text-pes_orange">
-                                            Become an Instructor
-                                        </a>
-                                    </li>
-                                    <li className="hidden lg:block">
-                                        <a className="text-pes_lightblue duration-200 hover:text-pes_orange">
-                                            Become an Instructor
-                                        </a>
-                                    </li>
                                     <li className="">
                                         <a className="text-pes_lightblue duration-200 hover:text-pes_orange">
                                             Become an Instructor
@@ -78,11 +63,6 @@ const Navbar = () => {
                                     <li className="">
                                         <a className="text-pes_lightblue duration-200 hover:text-pes_orange">
                                             Partnerships
-                                        </a>
-                                    </li>
-                                    <li className="">
-                                        <a className="text-pes_lightblue duration-200 hover:text-pes_orange">
-                                            Join as student
                                         </a>
                                     </li>
                                     <li className="">
@@ -108,8 +88,8 @@ const Navbar = () => {
                                 </ul>
                             </div>
                         </div>
-                        <button className="text-md h-fit rounded-full bg-pes_orange px-8 py-2 text-pes_white duration-200 hover:bg-orange-300 md:py-4">
-                            Login
+                        <button className="text-md h-fit rounded-full bg-pes_orange px-8 py-4 text-pes_white duration-200 hover:bg-orange-300">
+                            <div className="w-[6ch]">Sign Up</div>
                         </button>
                         <div className="dropdown-end dropdown">
                             <label
@@ -148,21 +128,6 @@ const Navbar = () => {
                                 tabIndex={0}
                                 className="menu dropdown-content rounded-box z-[50] h-fit bg-base-100"
                             >
-                                <li className="lg:block">
-                                    <a className="text-pes_lightblue duration-200 hover:text-pes_orange">
-                                        Become an Instructor
-                                    </a>
-                                </li>
-                                <li className="lg:block">
-                                    <a className="text-pes_lightblue duration-200 hover:text-pes_orange">
-                                        Become an Instructor
-                                    </a>
-                                </li>
-                                <li className="lg:block">
-                                    <a className="text-pes_lightblue duration-200 hover:text-pes_orange">
-                                        Become an Instructor
-                                    </a>
-                                </li>
                                 <li className="">
                                     <a className="text-pes_lightblue duration-200 hover:text-pes_orange">
                                         Become an Instructor
@@ -176,11 +141,6 @@ const Navbar = () => {
                                 <li className="">
                                     <a className="text-pes_lightblue duration-200 hover:text-pes_orange">
                                         Partnerships
-                                    </a>
-                                </li>
-                                <li className="">
-                                    <a className="text-pes_lightblue duration-200 hover:text-pes_orange">
-                                        Join as student
                                     </a>
                                 </li>
                                 <li className="">
