@@ -98,7 +98,7 @@ a {
 }
 
 .hero-section {
-    background-image: url(./assets/hero-image-extended.jpg);
+    background-image: url(./assets/hero-image-extended-min.jpg);
     position: relative;
 }
 
@@ -122,7 +122,7 @@ a {
 }
 
 .pes-video {
-    background-image: url(./assets/video-image.png);
+    background-image: url(./assets/video-image-min.png);
 }
 
 /* Partners animation! */
@@ -157,23 +157,23 @@ a {
 }
 
 .partner-1 {
-    background-image: url(./assets/client1.png);
+    background-image: url(./assets/client1-min.png);
 }
 
 .partner-2 {
-    background-image: url(./assets/client2.png);
+    background-image: url(./assets/client2-min.png);
 }
 
 .partner-3 {
-    background-image: url(./assets/client3.png);
+    background-image: url(./assets/client3-min.png);
 }
 
 .partner-4 {
-    background-image: url(./assets/client4.png);
+    background-image: url(./assets/client4-min.png);
 }
 
 .partner-5 {
-    background-image: url(./assets/client5.png);
+    background-image: url(./assets/client5-min.png);
 }
 
 .frame {
@@ -182,7 +182,7 @@ a {
 }
 
 .learn-at-frame::after {
-    background-image: url(./assets/Frame1.png);
+    background-image: url(./assets/Frame1-min.png);
     content: "";
     z-index: -1;
     position: absolute;
@@ -196,7 +196,7 @@ a {
 }
 
 .learn-online-frame::after {
-    background-image: url(./assets/Frame2.png);
+    background-image: url(./assets/Frame2-min.png);
     content: "";
     z-index: -1;
     position: absolute;
@@ -215,11 +215,11 @@ a {
 }
 
 .businessman-img {
-    background-image: url(./assets/boy-with-pen-tablet-notes.jpg);
+    background-image: url(./assets/boy-with-pen-tablet-notes-min.jpg);
 }
 
 .testimonials-image {
-    background-image: url(./assets/testimonials.png);
+    background-image: url(./assets/testimonials-min.png);
 }
 
 .partnerships-image {

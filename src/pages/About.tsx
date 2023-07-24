@@ -252,6 +252,18 @@ const About = () => {
                     </div>
                 </div>
             </section>
+
+            {/* Instructor Signup Section */}
+            {/* <section className="mx-auto px-[10px] py-[16px] sm:container sm:py-[20px] md:px-[30px] md:py-[40px] lg:max-w-[1080px] lg:px-[40px] lg:py-[80px]">
+                <div className="flex flex-col items-start gap-4 bg-pes_lightblue p-2 sm:p-4 lg:p-8">
+                    <h3 className="max-w-[20ch] text-start text-base text-pes_white md:text-xl lg:text-2xl">
+                        Want to share your knowledge? Join us as an Instructor
+                    </h3>
+                    <button className="h-fit w-fit rounded-full bg-pes_white px-8 py-4 text-sm text-pes_logoblue duration-200 hover:bg-orange-300 md:text-lg">
+                        Learn More
+                    </button>
+                </div>
+            </section> */}
         </div>
     )
 }

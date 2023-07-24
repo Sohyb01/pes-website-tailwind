@@ -10,19 +10,19 @@ const Navbar = () => {
                                 href=""
                                 className="text-md text-pes_white duration-200 hover:text-pes_orange"
                             >
-                                Home
+                                Features
                             </a>
                             <a
                                 href=""
                                 className="text-md text-pes_white duration-200 hover:text-pes_orange"
                             >
-                                About
+                                About Us
                             </a>
                             <a
                                 href=""
                                 className="text-md text-pes_white duration-200 hover:text-pes_orange"
                             >
-                                Contact
+                                Plans
                             </a>
                             {/* <a
                                 href=""
@@ -38,7 +38,7 @@ const Navbar = () => {
                                     </svg>
                                 </div>
                             </a> */}
-                            <div className="dropdown-end dropdown">
+                            <div className="dropdown dropdown-end">
                                 <label
                                     tabIndex={0}
                                     className="m-1 text-pes_white duration-200 hover:text-pes_orange"

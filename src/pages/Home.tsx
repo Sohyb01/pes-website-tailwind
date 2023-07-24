@@ -183,7 +183,7 @@ const Home = () => {
                 </h1>
                 <div className="success-numbers flex flex-col items-center justify-center gap-y-4 md:flex-row md:flex-wrap md:gap-x-10 md:gap-y-8">
                     <div className="statistic flex flex-col items-center">
-                        <h1 className="text-4xl text-pes_logoblue md:text-6xl">
+                        <h1 className="text-4xl font-bold text-pes_logoblue">
                             850+
                         </h1>
                         <h2 className="text-lg text-pes_darkbluegray">
@@ -191,7 +191,7 @@ const Home = () => {
                         </h2>
                     </div>
                     <div className="statistic flex flex-col items-center">
-                        <h1 className="text-4xl text-pes_logoblue md:text-6xl">
+                        <h1 className="text-4xl font-bold text-pes_logoblue">
                             139
                         </h1>
                         <h2 className="text-lg text-pes_darkbluegray">
@@ -199,7 +199,7 @@ const Home = () => {
                         </h2>
                     </div>
                     <div className="statistic flex flex-col items-center">
-                        <h1 className="text-4xl text-pes_logoblue md:text-6xl">
+                        <h1 className="text-4xl font-bold text-pes_logoblue">
                             1.7K
                         </h1>
                         <h2 className="text-lg text-pes_darkbluegray">
@@ -207,7 +207,7 @@ const Home = () => {
                         </h2>
                     </div>
                     <div className="statistic flex flex-col items-center">
-                        <h1 className="text-4xl text-pes_logoblue md:text-6xl">
+                        <h1 className="text-4xl font-bold text-pes_logoblue">
                             8
                         </h1>
                         <h2 className="text-lg text-pes_darkbluegray">
@@ -215,7 +215,7 @@ const Home = () => {
                         </h2>
                     </div>
                     <div className="statistic flex flex-col items-center">
-                        <h1 className="text-4xl text-pes_logoblue md:text-6xl">
+                        <h1 className="text-4xl font-bold text-pes_logoblue">
                             2+
                         </h1>
                         <h2 className="text-lg text-pes_darkbluegray">
@@ -265,7 +265,7 @@ const Home = () => {
             </section>
 
             {/* Looking for partnerships section */}
-            <section className="bg-pes_logoblue">
+            {/* <section className="bg-pes_logoblue">
                 <div className="mx-auto  px-[10px] py-[32px] sm:container md:px-[30px] md:py-[40px] lg:max-w-[1080px] lg:px-[40px] lg:py-[80px]">
                     <div className="flex flex-col gap-8 lg:flex-row lg:gap-4">
                         <div className="flex flex-col items-start gap-4 text-left md:gap-8 lg:gap-16">
@@ -280,79 +280,7 @@ const Home = () => {
                         <div className="partnerships-image aspect-[320/213] rounded-[16px] bg-cover sm:w-full"></div>
                     </div>
                 </div>
-            </section>
-
-            {/* FAQ Section */}
-            <section className="mx-auto px-[10px] py-[16px] sm:container sm:py-[16px] md:px-[30px] md:py-[40px] lg:max-w-[1080px] lg:px-[40px] lg:py-[80px]">
-                <h1 className="mx-auto mb-4 max-w-[30ch] text-center text-xl font-bold text-pes_darkblue lg:text-2xl">
-                    Frequently Asked Questions
-                </h1>
-                <div className="join join-vertical w-full shadow-xl">
-                    <div className="collapse join-item collapse-arrow">
-                        <input type="radio" name="my-accordion-4" />
-                        <div className="collapse-title text-base text-pes_darkgray md:text-lg">
-                            What do we do?
-                        </div>
-                        <div className="collapse-content">
-                            <p className="text-sm text-pes_darkgray md:text-base">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. Placeat minus adipisci
-                                repellat recusandae repudiandae, expedita est
-                                vel quasi sequi optio.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="h-[1px] w-full bg-pes_mediumgray"></div>
-                    <div className="collapse-arrow collapse join-item">
-                        <input type="radio" name="my-accordion-4" />
-                        <div className="collapse-title text-base text-pes_darkgray md:text-lg">
-                            How does the PES curriculum help kids perform better
-                            academically?
-                        </div>
-                        <div className="collapse-content">
-                            <p className="text-sm text-pes_darkgray md:text-base">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. Placeat minus adipisci
-                                repellat recusandae repudiandae, expedita est
-                                vel quasi sequi optio.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="h-[1px] w-full bg-pes_mediumgray"></div>
-                    <div className="collapse-arrow collapse join-item">
-                        <input type="radio" name="my-accordion-4" />
-
-                        <div className="collapse-title text-base text-pes_darkgray md:text-lg">
-                            What topics are taught in the PES curriculum?
-                        </div>
-                        <div className="collapse-content">
-                            <p className="text-sm text-pes_darkgray md:text-base">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. Placeat minus adipisci
-                                repellat recusandae repudiandae, expedita est
-                                vel quasi sequi optio.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="h-[1px] w-full bg-pes_mediumgray"></div>
-
-                    <div className="collapse-arrow collapse join-item">
-                        <input type="radio" name="my-accordion-4" />
-                        <div className="collapse-title text-base text-pes_darkgray md:text-lg">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing
-                            elit?
-                        </div>
-                        <div className="collapse-content">
-                            <p className="text-sm text-pes_darkgray md:text-base">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. Placeat minus adipisci
-                                repellat recusandae repudiandae, expedita est
-                                vel quasi sequi optio.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            </section> */}
         </div>
     )
 }
